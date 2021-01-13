@@ -1,11 +1,13 @@
-BODY {
-  background-color:darkslategray
+body {
+  background-color: cornflowerblue;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333
+  background-color: darkgray;
+  height: 60px;
 }
 
 li {
@@ -21,6 +23,45 @@ li a {
 }
 
 li a:hover {
-  background-color: salmon;
+  background-color: aqua;
   color: black;
+}
+
+/* .section-1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+} */
+
+/* article {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  
+} */
+
+section {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 25px;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40px;
+}
+
+.card {
+  margin: 10px;
+  border: 3px solid red;
+  padding: 10px;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
 }
